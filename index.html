@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Keep Notes</title>
   </head>
-  <body></body>
+  <body>
+    <div class="parent-body" id="parent-body-id">
+      <div class="heading" id="heading-id">
+        <h1><i class="fa-solid fa-note-sticky"></i>keep Notes</h1>
+      </div>
+    </div>
+
+    <div class="btn-div">
+      <button class="learn-more-btn add-btn" id="add-btn-id">
+        <span class="btn-text">+</span>
+      </button>
+    </div>
+
+    <div class="notes-card-div" id="notes-card-div-id">
+      <div class="operations-btn">
+        <button class="edit-btn">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </button>
+        <button class="delete-btn"><i class="fa-solid fa-trash"></i></button>
+      </div>
+
+      <textarea
+        name="notes"
+        class="notes-textarea-class"
+        id="notes-textarea-id"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <script src="index.js"></script>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  background: rgb(97, 200, 252);
+  height: 70px;
+  padding: 15px 0 0 15px;
+  color: rgb(62, 62, 62);
+}
+.heading h1 i {
+  padding-right: 5px;
+}
+
+.notes-card-div{
+    width: 380px;
+    height: 200px;
+    border: 1px solid grey;
+}
+
