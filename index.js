@@ -19,10 +19,10 @@ const addNewNote = (text = "") => {
   note.classList.add("notes-card-div");
   const noteHTML = `
     <div class="operations-btn">
-    <button class="edit-btn">
+    <button class="edit-btn btn">
       <i class="fa-solid fa-pen-to-square"></i>
     </button>
-    <button class="delete-btn"><i class="fa-solid fa-trash"></i></button>
+    <button class="delete-btn btn"><i class="fa-solid fa-trash"></i></button>
   </div>
 
   <div class="note-content ${text ? "" : "hidden"}" ></div>
@@ -44,6 +44,8 @@ const addNewNote = (text = "") => {
   // DELETING A NOTE
   noteDeletebtn.addEventListener("click", () => {
     note.remove();
+    updateLocalStorage()
+
   });
 
   //TOGGLE TEXTAREA AND NOTE

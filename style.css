@@ -22,13 +22,58 @@
 .notes-card-div {
   width: 350px;
   height: 200px;
-  border: 1px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0.202rem;
 }
 .notes-card-div textarea {
   width: 100%;
   padding: 0.5rem;
+  border: none;
 }
 .hidden {
   display: none;
+}
+.operations-btn {
+  float: inline-end;
+  padding: 5px;
+}
+.btn {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+.edit-btn {
+  background-color: rgb(109, 109, 250);
+  cursor: pointer;
+}
+.delete-btn {
+  cursor: pointer;
+  background-color: rgb(255, 48, 48);
+}
+.note-content {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-family: cursive;
+  font-size: 0.825rem;
+}
+.add-btn-div {
+  position: absolute;
+  width: fit-content;
+  right: 20px;
+  bottom: 30px;
+}
+.add-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: whitesmoke;
+  font-size: 2rem;
+  background-color: rgb(97, 200, 252);
+  border: none;
+  cursor: pointer;
 }
