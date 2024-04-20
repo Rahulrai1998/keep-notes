@@ -13,10 +13,21 @@
 .heading h1 i {
   padding-right: 5px;
 }
-
+.notes-cards-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
 .notes-card-div{
-    width: 380px;
+    width: 350px;
     height: 200px;
     border: 1px solid grey;
+    padding: 0.202rem;
 }
+.notes-card-div textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
 
